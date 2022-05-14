@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="login3d.css">
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Bree+Serif&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+	<!---------BACKGROUND IMAGE------->
+	<div class="bg-img">
+	<!---------CONTAINER------------------>
+	<div class="log-box-wrap">
+		<!---------lOGIN------------------>
+		<div class="log-box active" id="login">
+			<h2>Login</h2>
+			<form>
+				<div>
+					<input type="text" placeholder="username" required name="">
+					<input type="password" placeholder="Password" required name="">
+					<input type="submit" value="Login" name="">
+				</div>
+			</form>
+			<span>New User? <a href="javascript:void()" id="show_signup"><strong>Sign Up</strong></a></span>
+		</div>
+		<!---------SIGNUP------------------>
+		<div class="log-box" id="signup">
+			<h2>Sign Up</h2>
+			<form>
+				<div>
+					<input type="text" placeholder="Name" required name="">
+					<input type="email" placeholder="E-mail" required name="">
+					<input type="number" placeholder="Phone" required name="">
+					<input type="password" placeholder="Password" required name="">
+					<input type="submit" value="Sign up" name="">
+				</div>
+			</form>
+			<span>Have an Account? <a href="javascript:void()" id="show_login"><strong>Login</strong></a></span>
+		</div>
+	</div>
+</div>
+<script type="text/javascript" src="login3d.js"></script>	
+</body>
+</html>
